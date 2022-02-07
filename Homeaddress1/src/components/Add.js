@@ -76,11 +76,11 @@ class Add extends Component{
                             />
                         </div>
                         <div className="fields">
-                            <h4>ID Number *</h4>
+                            <h4>Address Location *</h4>
                             <input 
                                 type="number"
-                                name="idnumber"
-                                value={this.state.details.idnumber}
+                                name="Addresslocation"
+                                value={this.state.details.addresslocation}
                                 onChange={this.inputChange}
                             />
                         </div>

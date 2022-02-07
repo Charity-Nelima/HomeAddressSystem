@@ -99,8 +99,8 @@ class Edit extends Component{
                             <h4>Address Location *</h4>
                             <input 
                                 type="number"
-                                name="idnumber"
-                                value={this.state.dets.idnumber}
+                                name="Address location "
+                                value={this.state.dets.AddressLocation}
                                 onChange={this.inputChange}
                             />
                         </div>

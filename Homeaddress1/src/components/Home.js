@@ -44,7 +44,7 @@ class Home extends Component{
         return (
             <div className="dash">
                 <div className="sort">
-                    <Link to="/add"><button className="add__device">Add Device</button></Link>
+                    <Link to="/add"><button className="add__Details">Add Details</button></Link>
                 </div>
                 {this.state.users.map(user => (
                     <Device 
@@ -53,7 +53,7 @@ class Home extends Component{
                         firstname = {user.firstname}
                         lastname = {user.lastname}
                         email = {user.email}
-                        idnumber = {user.idnumber}
+                        AddressLocation = {user.AddressLocation}
                     />
                 ))}
             </div>

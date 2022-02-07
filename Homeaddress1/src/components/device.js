@@ -1,7 +1,7 @@
 import React, {useState} from 'react'
 import {Link} from 'react-router-dom'
 
-const Device = ({firstname, lastname, email, idnumber, pk}) => {
+const Device = ({firstname, lastname, email, AddressLocation, pk}) => {
 
     const [user, setUser] = useState([]);
     const [item, setItem] = useState([]);
@@ -31,7 +31,7 @@ const Device = ({firstname, lastname, email, idnumber, pk}) => {
                             <h4>{firstname}</h4>
                             <h4>{lastname}</h4>
                             <h4>{email}</h4>
-                            <h4>{idnumber}</h4>
+                            <h4>{AddressLocation}</h4>
                         </div>
                         <div className="edit__device">
                             <Link to={`/update/${pk}`}><button className="edit">Edit</button></Link>
