@@ -1,0 +1,159 @@
+.dash{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+}
+.home{
+  display: flex;
+}
+.home ul{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.home ul li{
+  list-style: none;
+  border: 1px #111 solid;
+}
+.home ul li ol span{
+  color: skyblue;
+}
+.home ul li ol h4{
+  font-weight: 600;
+}
+.home ul li{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.edit__device{
+  margin-left: 80px;
+}
+.edit__device .edit{
+  padding: 8px 10px;
+  outline: none;
+  color: white;
+  background-color: royalblue;
+  border: 1px royalblue solid;
+  border-radius: 2px;
+  cursor: pointer;
+  margin-right: 10px;
+}
+.edit__device .delete{
+  padding: 8px 10px;
+  outline: none;
+  color: white;
+  background-color: #ff084e;
+  border: 1px #ff084e solid;
+  border-radius: 2px;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.sort{
+  display: flex;
+}
+.sort h5{
+  padding-left: 35px;
+  font-weight: 600;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 1rem;
+}
+.sort select{
+  outline: none;
+  border: none;
+}
+.dash .add__device{
+  float: right;
+  margin-top: 20px;
+  color: white;
+  border: 1px royalblue solid;
+  background-color: royalblue;
+  padding: 8px 12px;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+/* add device page */
+
+.add{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 100px;
+}
+.add form{
+  padding: 20px;
+  border: 1px #111 solid;
+}
+.add form .fields{
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
+  align-items: center;
+}
+.add form .fields input[type="text"]{
+  margin-left: 50px;
+  outline: none;
+  padding: 7px;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: 500;
+  font-size: 1.1rem;
+  width: 283px;
+  border: 1px #ddd solid;
+}
+.add form .fields input[type="number"]{
+  margin-left: 50px;
+  outline: none;
+  padding: 7px;
+  width: 283px;
+  border: 1px #ddd solid;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: 500;
+  font-size: 1.1rem;
+}
+.add form .fields h4{
+  font-size: 1rem;
+  font-weight: 600;
+}
+.add form .buttons .save{
+  float: right;
+  padding: 8px 10px;
+  outline: none;
+  color: white;
+  background-color: royalblue;
+  border: 1px royalblue solid;
+  border-radius: 2px;
+  cursor: pointer;
+}
+.add form .buttons .close{
+  float: right;
+  padding: 8px 10px;
+  outline: none;
+  color: #111;
+  border: 1px #ddd solid;
+  border-radius: 2px;
+  cursor: pointer;
+  margin-left: 10px;
+}
+.add form .fields select{
+  margin-left: 50px;
+  outline: none;
+  padding: 7px;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: 500;
+  font-size: 1.1rem;
+  width: 300px;
+  border: 1px #ddd solid;
+}
+
+.details{
+  display: flex;
+}
+.details h4{
+  display: flex;
+  margin-left: 15px;
+  padding-right: 10px;
+  border-right: 1px solid #111;
+}
