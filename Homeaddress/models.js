@@ -15,7 +15,7 @@ const userSchema = new mongoose.Schema({
         required: 'email address is required',
         match: [/\S+@\S+\.\S+/, 'is invalid']
     },
-    idnumber: {
+    address: {
         type: String,
         required: true
     }

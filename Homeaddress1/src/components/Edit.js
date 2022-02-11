@@ -9,7 +9,7 @@ class Edit extends Component{
             lastname: '',
             firstname: '',
             email: '',
-            idnumber: ''
+            address: ''
         },
         redirect: false,
         id: ''
@@ -80,7 +80,7 @@ class Edit extends Component{
                         <div className="fields">
                             <h4>Last name *</h4>
                             <input 
-                                type="number"
+                                type="text"
                                 name="lastname"
                                 value={this.state.dets.lastname}
                                 onChange={this.inputChange}
@@ -98,8 +98,8 @@ class Edit extends Component{
                         <div className="fields">
                             <h4>Address Location *</h4>
                             <input 
-                                type="number"
-                                name="Address location "
+                                type="text"
+                                name="address"
                                 value={this.state.dets.AddressLocation}
                                 onChange={this.inputChange}
                             />

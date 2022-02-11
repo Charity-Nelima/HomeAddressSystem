@@ -1,3 +1,4 @@
+
 const express = require('express');
 const router = express.Router();
 const User = require('./models');
@@ -7,7 +8,7 @@ router.post('/', async(req, res) => {
         firstname: req.body.firstname,
         lastname: req.body.lastname,
         email: req.body.email,
-        idnumber: req.body.idnumber
+        address: req.body.address
     })
     try{
         const a1 = await user.save()

@@ -7,7 +7,7 @@ class Add extends Component{
         details: {
             firstname: '',
             lastname: '',
-            idnumber: '',
+            address: '',
             email: ''
         },
     }
@@ -78,8 +78,8 @@ class Add extends Component{
                         <div className="fields">
                             <h4>Address Location *</h4>
                             <input 
-                                type="number"
-                                name="Addresslocation"
+                                type="text"
+                                name="address"
                                 value={this.state.details.addresslocation}
                                 onChange={this.inputChange}
                             />
